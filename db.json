@@ -2,85 +2,85 @@
   "videos": [
     {
       "id": 1,
-      "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
-      "descricao": "3 mil visualizações",
-      "url": "https://www.youtube.com/embed/y8FeZMv37WU",
+      "titulo": "Front-end vs. Back-end: ¡Descubre el lado perfecto para ti! #LuchaDev",
+      "descripcion": "3 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/QjOWz9avkg8",
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
       "id": 2,
-      "titulo": "Desmistificando mobile - Linguagens e Frameworks",
-      "descricao": "1,5 mil visualizações",
-      "url": "https://www.youtube.com/embed/fmu1LQvZhms",
+      "titulo": "¿Cómo ser un Profesional en T? Conociendo al Tech Guide",
+      "descripcion": "1,5 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/0udk1vXmwkc",
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
       "id": 3,
-      "titulo": "Orientação a objetos com Roberta Arcoverde | #Hipster...",
-      "descricao": "30 mil visualizações",
-      "url": "https://www.youtube.com/embed/jpuJ1qrluoU",
+      "titulo": "¡Domina CSS Flexbox con FlexboxFroggy! Aprende jugando en este desafío divertido",
+      "descripcion": "30 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/MXPhyN5t0uQ",
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
       "id": 4,
-      "titulo": "Linguagens e ferramentas usadas em Ciência de Dados...",
-      "descricao": "2,5 mil visualizações",
-      "url": "https://www.youtube.com/embed/h83e1aAM5xQ",
+      "titulo": "¿Qué significa ser un Desarrollador Full Stack?",
+      "descripcion": "2,5 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/eejIHbOk_uI",
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
       "id": 5,
-      "titulo": "Reencontrando a paixão por programar: Beatriz Ramerindo",
-      "descricao": "1,2 mil visualizações",
-      "url": "https://www.youtube.com/embed/CnB3eLTrkn4",
+      "titulo": "Como utilizar el Display block, inline, inline-block #aluramás",
+      "descripcion": "1,2 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/AG2QssLpQzI",
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
       "id": 6,
-      "titulo": "Híbridos: Flutter e React Native | Desmistificando..",
-      "descricao": "1,6 mil visualizações",
-      "url": "https://www.youtube.com/embed/vf9P_PycgRw",
+      "titulo": "Explorando el poder del Back-End en el Desarrollo Web",
+      "descripcion": "1,6 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/Z024LSCMqFk",
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
       "id": 7,
-      "titulo": "Data Science na prática- com Jéssika Ribeiro do Grupo...",
-      "descricao": "3,2 mil visualizações",
+      "titulo": "¿Sabes cómo organizar tu rutina de estudio? Descubre aquí | #aluramás",
+      "descripcion": "3,2 mil visualizaciones",
       "url": "https://www.youtube.com/embed/Nts3P35mHzE",
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
       "id": 8,
-      "titulo": "baNaNa | Memes do JavaScript #2",
-      "descricao": "1,2 mil visualizações",
-      "url": "https://www.youtube.com/embed/HBVCsBtsmzA",
+      "titulo": "Cómo evitar robo de vehículo con Inteligencia Artificial | #aluramás",
+      "descripcion": "1,2 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/5T_Q_NtNLZE",
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
-      "titulo": "[Casa do Código] Live de lançamento: Navegando no Universo da Programação",
-      "descricao": "1 mil visualizações",
-      "url": "https://www.youtube.com/embed/z43rcfjXOxU",
+      "titulo": "Descubre el poder del Machine Learning",
+      "descripcion": "1 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/edS0Fhg0xyM",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 9
     },
     {
-      "titulo": "Educação coorporativa",
-      "descricao": "9 mil visualizações",
-      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+      "titulo": "Desvelando los secretos del Chat GPT: La revolución de la IA",
+      "descripcion": "9 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/0_y09AwR6ns",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 10
     },
     {
-      "titulo": "Educação coorporativa",
-      "descricao": "4 mil visualizações",
-      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+      "titulo": "Domina tu flujo de trabajo con Kanban: ¡La guía definitiva para la eficiencia!",
+      "descripcion": "4 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/ew1mwLviTWY",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 11
     },
     {
-      "titulo": "Educação coorporativa",
-      "descricao": "7 mil visualizações",
-      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+      "titulo": "Empresas que aprenden | #aluramás",
+      "descripcion": "7 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/mwNfWRsDDWE",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 12
     }
