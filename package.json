@@ -1,0 +1,22 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"> <img src=\"https://github.com/josevflores911/JavaScript/blob/main/img/encabezado/screenshoot_d.PNG\" alt=\"Javascript: creando requisiciones\"> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josevflores911/JavaScript.git"
+  },
+  "author": "J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josevflores911/JavaScript/issues"
+  },
+  "homepage": "https://github.com/josevflores911/JavaScript#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
