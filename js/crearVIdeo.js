@@ -2,6 +2,8 @@ import { conectaAPI } from "./conectaAPI.js";
 
 const formulario = document.querySelector("[data-formulario]");
 
+//validaciones
+
 async function crearVideo(){
     const imagen= document.querySelector("[data-imagen]");
     const url = document.querySelector("[data-url]");

@@ -33,6 +33,13 @@ async function crearVideo(titulo,descripcion,url,imagen){
     return conexionConvertida;
 }
 
+async function buscarVideo(referencia){
+    const conexion=await fetch(`http://localhost:3001/videos?q=${referencia}`)
+    const conexionConvertida=conexion.json();
+
+    return conexionConvertida;
+}
+
 export const conectaAPI={
-    listaVideos,crearVideo
+    listaVideos,crearVideo,buscarVideo
 }
