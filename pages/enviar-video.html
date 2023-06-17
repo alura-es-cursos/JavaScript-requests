@@ -36,27 +36,27 @@
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="url">Link del video</label>
                     <input name="url" class="campo__escrita" required
-                        placeholder="Por ejemplo: https://www.youtube.com/embed/QjOWz9avkg8" id='url' />
+                        placeholder="Por ejemplo: https://www.youtube.com/embed/QjOWz9avkg8" id='url' data-url/>
                 </div>
 
 
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="titulo">Título del vídeo</label>
                     <input name="titulo" class="campo__escrita" required placeholder="En este campo, pon el nombre del vídeo"
-                        id='titulo' />
+                        id='titulo' data-titulo/>
                 </div>
 
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="imagem">Imagen de perfil</label>
                     <input name="imagem" class="campo__escrita" required placeholder="Inserta la URL de la imagen"
-                        id='imagem' />
+                        id='imagem' data-imagen/>
                 </div>
 
                 <input class="formulario__boton" type="submit" />
         </form>
 
     </main>
-
+    <script src="../js/crearVideo.js" type="module"></script>
 </body>
 
 </html>
