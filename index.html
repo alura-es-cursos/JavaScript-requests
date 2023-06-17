@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="*">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/estilos.css">
@@ -14,72 +15,20 @@
 </head>
 
 <body>
-
     <header>
-
         <nav class="encabezado">
             <a class="logo" href="./index.html"></a>
-
             <div class="encabezado__buscar">
-
                 <input type="search" placeholder="Buscar" id="buscar" class="buscar__input">
                 <button class="buscar__boton"></button>
-
             </div>
-
             <div class="encabezado__iconos">
                 <a href="./pages/enviar-video.html" class="encabezado__videos"></a>
             </div>
         </nav>
-
     </header>
-
-    <ul class="videos__container" alt="videos alura">
-        <li class="videos__item">
-            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/QjOWz9avkg8"
-                title="Front-end vs. Back-end: ¡Descubre el lado perfecto para ti!" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="descripcion-video">
-                <img src="./img/logo.png" alt="logo canal alura">
-                <h3>Front-end vs. Back-end: ¡Descubre el lado perfecto para ti!</h3>
-                <p>236 mil visualizaciones</p>
-            </div>
-        </li>
-        <li class="videos__item">
-            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/MXPhyN5t0uQ"
-                title="¡Domina CSS Flexbox con FlexboxFroggy! Aprende jugando en este desafío divertido" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="descripcion-video">
-                <img src="./img/logo.png" alt="logo canal alura">
-                <h3>¡Domina CSS Flexbox con FlexboxFroggy! Aprende jugando en este desafío divertido</h3>
-                <p>618 visualizaciones</p>
-            </div>
-        </li>
-        <li class="videos__item">
-            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/0udk1vXmwkc"
-                title="¿Cómo ser un Profesional en T? Conociendo al Tech Guide" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="descripcion-video">
-                <img src="./img/logo.png" alt="logo canal alura">
-                <h3>¿Cómo ser un Profesional en T? Conociendo al Tech Guide</h3>
-                <p>1,1 mil visualizaciones</p>
-            </div>
-        </li>
-        <li class="videos__item">
-            <iframe width="100%" height="72%" src="https://www.youtube.com/embed/eejIHbOk_uI"
-                title="¿Qué significa ser un Desarrollador Full Stack?" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="descripcion-video">
-                <img src="./img/logo.png" alt="logo canal alura">
-                <h3>¿Qué significa ser un Desarrollador Full Stack?</h3>
-                <p>3 mil visualizaciones</p>
-            </div>
-        </li>
-    </ul>
+    <ul class="videos__container" alt="videos alura" data-lista></ul>
+    <script src="./js/mostrarVideos.js" type="module"></script>
 </body>
 
 </html>
