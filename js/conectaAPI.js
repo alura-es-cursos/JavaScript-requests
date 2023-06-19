@@ -2,13 +2,11 @@ async function listaVideos(){
     const conexion = await fetch("http://localhost:3001/videos",{
         method:"GET",
         headers:{
-        "Content-type":"application/json",
-        "Permissions-Policy": "geolocation=(self `http://localhost:3001/videos`)"
+        "Content-type":"application/json"
         }
     });
     
     const conexionConvertida=await conexion.json();
-    //res.setHeader('Permissions-Policy', 'ch-ua-form-factor');
     /* console.log(conexion);
     console.log(conexionConvertida); */
     return conexionConvertida;
