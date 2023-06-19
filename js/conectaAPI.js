@@ -3,12 +3,10 @@ async function listaVideos(){
         method:"GET",
         headers:{
         "Content-type":"application/json",
-        "Permissions-Policy": "geolocation=(self `http://localhost:3001/videos`)"
         }
     });
     
     const conexionConvertida=await conexion.json();
-    //res.setHeader('Permissions-Policy', 'ch-ua-form-factor');
     /* console.log(conexion);
     console.log(conexionConvertida); */
     return conexionConvertida;
