@@ -4,10 +4,11 @@ const formulario = document.querySelector("[data-formulario]");
 
 //validaciones
 
-async function crearVideo(){
-    const imagen= document.querySelector("[data-imagen]");
-    const url = document.querySelector("[data-url]");
-    const titulo=document.querySelector("[data-titulo").value;
+async function crearVideo(evento){
+    evento.preventDefault();
+    const imagen= document.querySelector("[data-imagen]").value;
+    const url = document.querySelector("[data-url]").value;
+    const titulo=document.querySelector("[data-titulo]").value;
     const descripcion = Math.floor(Math.random*10).toString();
 
     try{
