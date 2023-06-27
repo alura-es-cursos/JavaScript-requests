@@ -27,3 +27,11 @@ async function buscarVideo(evento){
 const botonBusqueda=document.querySelector("[data-boton-busqueda]");
 
 botonBusqueda.addEventListener("click",evento=>buscarVideo(evento))
+
+const inputEle = document.getElementById('buscar');
+inputEle.addEventListener('keyup', function(e){
+  var key = e.which || e.keyCode;
+  if (key == 13) { 
+    filtrarVideo(e)
+  }
+});
